@@ -2,27 +2,14 @@
 title: Home
 ---
 
-# Your Lab Slogan
+# Owen Hale
 
 [Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
 Spend less time reinventing the wheel, and more time running your lab.
 
-{%
-  include link.html
-  type="github"
-  icon=""
-  text="See the template on GitHub"
-  link="greenelab/lab-website-template"
-  style="button"
-%}
-{%
-  include link.html
-  type="docs"
-  icon=""
-  text="See the documentation"
-  link="https://github.com/greenelab/lab-website-template/wiki"
-  style="button"
-%}
+I am a graduate student in the [lab of Dr. Megan Behringer](https://behringerlab.wixsite.com/index) in the Department of Biological Sciences at Vanderbilt University.
+My research is aims to produce basic and translational insights into the microorganisms that inhabit the human urinary tract, how they evolve, and how they impact our health.
+
 {:.center}
 
 {% include section.html full=true %}
@@ -34,8 +21,8 @@ Spend less time reinventing the wheel, and more time running your lab.
 # Highlights
 
 {% capture text %}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+My current project involves analyzing metagenomic data from a clinical trial of a vaginal microbiome therapy which may prevent recurrent urinary tract infections.
 
 {%
   include link.html
