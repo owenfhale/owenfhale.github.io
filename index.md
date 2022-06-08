@@ -5,7 +5,7 @@ title: Home
 # Owen Hale
 
 I am a graduate student in the [lab of Dr. Megan Behringer](https://behringerlab.wixsite.com/index) in the Department of Biological Sciences at Vanderbilt University.
-My research is aims to produce basic and translational insights into the microorganisms that inhabit the human urinary tract, how they evolve, and how they impact our health.
+My research aims to produce basic and translational insights into the microorganisms that inhabit the human urinary tract, how they evolve, and how they impact our health.
 
 {:.center}
 
