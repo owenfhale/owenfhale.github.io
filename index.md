@@ -4,9 +4,6 @@ title: Home
 
 # Owen Hale
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/), with automatic citations, GitHub tag imports, pre-built components, and more.
-Spend less time reinventing the wheel, and more time running your lab.
-
 I am a graduate student in the [lab of Dr. Megan Behringer](https://behringerlab.wixsite.com/index) in the Department of Biological Sciences at Vanderbilt University.
 My research is aims to produce basic and translational insights into the microorganisms that inhabit the human urinary tract, how they evolve, and how they impact our health.
 
