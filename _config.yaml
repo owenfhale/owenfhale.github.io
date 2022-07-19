@@ -10,12 +10,12 @@ baseurl: /lab-website-template
 
 # site social media and other links
 links:
-  email: jane.smith@your-lab.com
-  google-scholar: Jane Smith
-  github: your-lab
-  twitter: YourLabHandle
-  instagram: YourLabHandle
-  youtube: YourLabChannel
+  email: owen.f.hale@vanderbilt.edu
+  google-scholar: Owen Hale
+  github: owenfhale
+  twitter: owenmicro
+#   instagram: YourLabHandle
+#   youtube: YourLabChannel
 
 ### advanced settings
 
