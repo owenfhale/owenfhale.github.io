@@ -7,10 +7,13 @@ nav:
 
 # <i class="fas fa-microscope"></i>Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Current Work:
+
+I joined Vanderbilt's Interdisciplinary Graduate Program in 2021 and shortly began working in the lab of Dr. Megan Behringer in the Department of Biological Sciences. My thesis work involves understanding the evolutionary processes that shape the human urinary and vaginal microbiome, as well as translating basic discoveries back to the clinic.
+
+Undergraduate Work:
+
+At the Georgia Institute of Technology I joined Dr. Amit Reddi's lab in the School of Chemistry and Biochemistry where I worked to understand the regulation of mycobacterial heme homeostasis. Additionally, I took a semester off to work as a Microbiome Engineering Co-op at Indigo Agriculture Inc. where I developed microbial treatments that increased the stress tolerance of crops and improved their ability to sequester carbon from the atmostphere. I also spent a summer in Dr. Gilles Martin's lab at the University of Massachusetts Medical School studying the neurobiology of binge drinking. 
 
 {% include section.html %}
 
