@@ -9,10 +9,19 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    right: 
+      - icon: google
+        href: https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao
+      - icon: github
+        href: https://github.com/owenfhale
+      - icon: twitter
+        href: https://twitter.com/owenmicro
+      - icon: linkedin
+        href: https://www.linkedin.com/in/owenhale/
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css
     toc: true
 
