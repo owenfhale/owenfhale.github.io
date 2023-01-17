@@ -1,9 +1,11 @@
 project:
   type: website
   output-dir: docs
+  pre-render: build_references.R
 
 website:
   title: "Owen Hale"
+  
   navbar:
     left:
       - href: index.qmd
