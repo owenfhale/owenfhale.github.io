@@ -3,12 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "qmd"
+  title: "Owen Hale"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - about_me.qmd
+      - href: research.qmd
+        text: Research
+      - publications.qmd
+      - contact.qmd
     right: 
       - icon: google
         href: https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao

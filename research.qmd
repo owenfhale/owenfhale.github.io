@@ -1,0 +1,46 @@
+---
+title: ""
+---
+
+# Current Projects
+
+
+#### Microbiome targeted therapy for recurrent urinary tract infections
+
+In collaboration with clinicians at the Mayo Clinic I am evaluating the efficacy of a microablative vaginal laser treatment for preventing recurrent urinary tract infections in postmenopausal women.
+I will be using metagenomic sequencing to determine if the treatment causes changes in the urogenital microbiome that are associated with decreased UTI incidence such as increasing *Lactobacillus* abundance.
+View details at [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/show/NCT04301934).
+<br><br>
+
+#### Ecology and evolution of bladder bacteria
+
+Lactic acid bacteria are fastidious anaerobes and are understudied despite their industrial applications and associations with human health benefits.
+These bugs are known to inhibit the growth of pathogens like *E. coli* and may be critical for preventing UTIs.
+My goal is to understand the mechanisms driving the evolution of these microbes *in vitro* and in the human microbiome using a variety of experimental evolution and computational methods.
+
+# Past Projects
+
+#### Mycobacterial heme homeostasis
+*Mycobacterium tuberculosis* is the second deadliest pathogen and the deadliest bacterium.
+While progress has been made in fighting tuberculosis, antimicrobial resistance in this pathogen is growing rapidly.
+The need for new therapies requires us to understand new potential targets.
+Heme is an essential cofactor required by *M. tuberculosis* for respiration, gas sensing, neutralizing reactive oxygen species, and other processes necessary for pathogenesis.
+However, the reactivity that makes it so useful as a cofactor also makes it toxic. Free heme can dangerously alter proteins, lipids, and nucleic acids resulting in cell death.
+Using the model mycobacterium, *Mycobacterium smegmatis*, I identified physiologically relevant contitions that altered heme synthesis and bioavailability.
+My work on this project contributed to a [paper](https://doi.org/10.1128/spectrum.03604-22) driven by lead author Dr. Rebecca Donegan that described idiosyncratic patterns in mycobacterial heme homeostasis and showed that heme synthesis may be a promising drug target.
+
+#### Agricultural Microbiomes
+Indigo Agriculture produces staple crop seeds treated with microbes which increase yield and can protect plants from stresses like drought or fungal infection.
+I screened pairs of microbes for antagonism using *in vitro* and *in planta* assays to determine if they were compatible for coinnoculation.
+I also contributed to a metabolite function knowledge base to enhance genome motivated microbe nominations.
+
+#### Electrophysiology of alcohol addiction
+Alcohol addiction is a leading cause of morbidity and mortality and it is believed that binge drinking may play a causal role in its pathogenesis.
+Working in Dr. Gilles Martin's lab at UMass Medical School, I performed mouse husbandry and set up whole-cell patch clamping experiments aimed at determining how binge drinking may lead to alcohol addiction.
+I also completed a small project aimed at addressing a major issue common in animal research: the exclusion of female research subjects.
+This causes two major problems.
+If there is no sex difference in the phenomenon being studied, the researchers cannot know if the results are generalizable to female animals.
+If there is a sex difference, it cannot be detected.
+This problem is being [prioritized](https://orwh.od.nih.gov/sex-gender/nih-policy-sex-biological-variable) by NIH.
+My goal was to understand if there is a difference in alcohol consumption between male and female mice so that the lab could confidently move forward with including female mice in future experiments.
+There was no difference.

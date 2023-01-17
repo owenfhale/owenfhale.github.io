@@ -1,0 +1,55 @@
+---
+references:
+- id: donegan2022
+  author:
+  - family: Donegan
+    given: Rebecca K.
+  - family: Fu
+    given: Yibo
+  - family: Copeland
+    given: Jacqueline
+  - family: Idga
+    given: Stanzin
+  - family: Brown
+    given: Gabriel
+  - family: Hale
+    given: Owen F.
+  - family: Mitra
+    given: Avishek
+  - family: Yang
+    given: Hui
+  - family: Dailey
+    given: Harry A.
+  - family: Niederweis
+    given: Michael
+  - family: Jain
+    given: Paras
+  - family: Reddi
+    given: Amit R.
+  container-title: Microbiology Spectrum
+  container-title-short: Microbiol Spectr
+  DOI: 10.1128/spectrum.03604-22
+  editor:
+  - family: Lamichhane
+    given: Gyanu
+  is-referenced-by-count: 0
+  ISSN: 2165-0497
+  issue: 5
+  issued: 2022-10-26
+  language: en
+  member: 235
+  prefix: 10.1128
+  providerKey: doi
+  publisher: American Society for Microbiology
+  reference-count: 70
+  references-count: 70
+  score: 1
+  source: Crossref
+  subject: Infectious Diseases
+  title: Exogenously Scavenged and Endogenously Synthesized Heme Are
+    Differentially Utilized by Mycobacterium tuberculosis
+  type: article-journal
+  update-policy: "http://dx.doi.org/10.1128/asmj-crossmark-policy-page"
+  URL: "http://dx.doi.org/10.1128/spectrum.03604-22"
+  volume: 10
+...

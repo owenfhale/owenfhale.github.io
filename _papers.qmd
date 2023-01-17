@@ -1,0 +1,6 @@
+---
+title: "Papers"
+bibliography: references.yaml
+---
+
+[@donegan2022]
