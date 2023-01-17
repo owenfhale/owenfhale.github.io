@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: ""
 ---
 
 My two broad scientific interests are the evolutionary processes determining microbe-host interactions and the role of the microbiome in fighting infections. Currently, I am a Ph.D. student in [Dr. Megan Behringer's lab](https://behringerlab.wixsite.com/index) at Vanderbilt University. We are working to understand the evolution of lactic acid bacteria that live in the bladder and how they may protect against urinary tract infections.

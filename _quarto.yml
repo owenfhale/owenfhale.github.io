@@ -10,11 +10,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about_me.qmd
+      - href: about_me.qmd
+        text: About
       - href: research.qmd
         text: Research
-      - publications.qmd
-      - contact.qmd
+      - href: publications.qmd
+        text: Publications
+      - href: contact.qmd
+        text: Contact
     right: 
       - icon: google
         href: https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao

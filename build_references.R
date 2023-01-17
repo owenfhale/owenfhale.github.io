@@ -27,7 +27,7 @@ for (i in 1:length(references)){
     last  <- p$author[a][[1]]$family
     
     if (grepl('Owen', first) & grepl('Hale', last)){
-      full <- paste(paste('', first, sep = ''), paste(last, '', sep = ''))
+      full <- paste(paste('**', first, sep = ''), paste(last, '**', sep = ''))
     }else{full <- paste(first, last)}
     
     author_list <- c(author_list, full)
@@ -66,12 +66,12 @@ bib <- merge(bib, scholar_df, all.x = TRUE)
 
 # write header
 
-write_file('---\ntitle: "Publications"\n---\n', 'publications.qmd')
+write_file('---\ntitle: ""\n---\n', 'publications.qmd')
 
 for(i in 1:nrow(bib)){
   info <- bib[i,]
   citations <- paste("Citations: ", info$citations[[1]], sep = '')
-  title <- paste('####', info$titles)
+  title <- paste('###', info$titles)
   url <- info$urls[[1]]
   journal <- info$journals[[1]]
   date <- info$dates[[1]]
