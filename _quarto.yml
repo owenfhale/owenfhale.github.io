@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Owen Hale"
-  
+  description: "This site is about the scientist Owen Hale. It includes information about his ongoing research and scientific publications."
   navbar:
     left:
       - href: index.qmd

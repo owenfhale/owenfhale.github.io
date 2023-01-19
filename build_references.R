@@ -70,19 +70,21 @@ write_file('---\ntitle: ""\n---\n', 'publications.qmd')
 
 for(i in 1:nrow(bib)){
   info <- bib[i,]
-  citations <- paste("Citations: ", info$citations[[1]], sep = '')
+  citations <- paste("Google Scholar Citations: ", info$citations[[1]], sep = '')
   title <- paste('###', info$titles)
   url <- info$urls[[1]]
-  journal <- info$journals[[1]]
+  journal <- paste('[', info$journals[[1]], '](', url, ')',sep = '', collapse = '')
   date <- info$dates[[1]]
   authors <- paste(info$authors[[1]], sep = '', collapse = ', ')
   doi <- info$dois
-  link <- paste('[', doi, '](', url, ')',sep = '', collapse = '')
-  cite <- paste(journal, date, link, citations, sep = '&emsp;', collapse = '')
+  cite <- paste(journal, date, citations, sep = '&emsp;', collapse = '')
   
   write_file(paste(title, '\n', sep = ''), 'publications.qmd', append = TRUE)
   write_file(paste(authors, '\n\n', sep = ''), 'publications.qmd', append = TRUE)
-  write_file(paste(cite, '\n\n', sep = ''), 'publications.qmd', append = TRUE)
+  write_file('<div style="display: flex; justify-content: space-between;">\n', 'publications.qmd', append = TRUE)
+  write_file(paste('  <p >', journal,   '</p>\n', sep = '', collapse = ''), 'publications.qmd', append = TRUE)
+  write_file(paste('  <p >', citations, '</p>\n', sep = '', collapse = ''), 'publications.qmd', append = TRUE)
+  write_file(paste('  <p >', date,      '</p>\n', sep = '', collapse = ''), 'publications.qmd', append = TRUE)
+  write_file('  </div>***\n', 'publications.qmd', append = TRUE)
 }
-
 

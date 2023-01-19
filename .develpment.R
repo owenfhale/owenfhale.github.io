@@ -1,19 +1,35 @@
-library(rvest)
-library(xml2)
 
-scholar <- read_html("https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao") |> html_elements("tbody#gsc_a_b") |> html_elements("tr.gsc_a_tr")
+write_file('---\ntitle: ""\n---\n', 'publications.qmd')
 
-title_pub <- c()
-citations <- c()
-year <- c()
-
-for (i in 1:length(scholar)){
-  title_pub_entry <- scholar[[i]] |> html_elements("td.gsc_a_t") |> xml_text()
-  citations_entry <- scholar[[i]] |> html_elements("td.gsc_a_c") |> xml_text()
-  year_entry <- scholar[[i]] |> html_elements("td.gsc_a_y") |> xml_text()
-  title_pub <- c(title_pub, title_pub_entry)
-  citations <- c(citations, citations_entry)
-  year <- c(year, year_entry)
+for(i in 1:nrow(bib)){
+  info <- bib[i,]
+  citations <- paste("Google Scholar Citations: ", info$citations[[1]], sep = '')
+  title <- paste('###', info$titles)
+  url <- info$urls[[1]]
+  journal <- paste('[', info$journals[[1]], '](', url, ')',sep = '', collapse = '')
+  date <- info$dates[[1]]
+  authors <- paste(info$authors[[1]], sep = '', collapse = ', ')
+  doi <- info$dois
+  link <- paste('[', doi, '](', url, ')',sep = '', collapse = '')
+  cite <- paste(journal, date, citations, sep = '&emsp;', collapse = '')
+  
+  write_file(paste(title, '\n', sep = ''), 'publications.qmd', append = TRUE)
+  write_file(paste(authors, '\n\n', sep = ''), 'publications.qmd', append = TRUE)
+  
+  write_file('<div style="display: flex; justify-content: space-between;">\n\t<p >Left</p>\n\t<p >Center</p>\n\t<p >Right</p>\n</div>')
+  
+  write_file(paste(cite, '\n\n***\n\n', sep = ''), 'publications.qmd', append = TRUE)
 }
 
-scholar_df <- cbind(title_pub, citations, year) |> as.data.frame() |> mutate(citations = gsub("\\*", "", citations))
+
+write_file('<div style="display: flex; justify-content: space-between;">\n', 'publications.qmd', append = TRUE)
+write_file('  <p >Left</p>', 'publications.qmd\n', append = TRUE)
+write_file('  <p >Middle</p>\n', 'publications.qmd', append = TRUE)
+write_file('  <p >Right</p>\n', 'publications.qmd', append = TRUE)
+write_file('  </div>', 'publications.qmd', append = TRUE)
+
+#<div style="display: flex; justify-content: space-between;">
+#  <p >Left</p>
+#  <p >Middle</p>
+#  <p >Right</p>
+#  </div>

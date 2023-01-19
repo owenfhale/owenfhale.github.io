@@ -4,5 +4,8 @@ title: ""
 ### Exogenously Scavenged and Endogenously Synthesized Heme Are Differentially Utilized by Mycobacterium tuberculosis
 Rebecca K. Donegan, Yibo Fu, Jacqueline Copeland, Stanzin Idga, Gabriel Brown, **Owen F. Hale**, Avishek Mitra, Hui Yang, Harry A. Dailey, Michael Niederweis, Paras Jain, Amit R. Reddi
 
-Microbiology Spectrum&emsp;2022-10-26&emsp;[10.1128/spectrum.03604-22](http://dx.doi.org/10.1128/spectrum.03604-22)&emsp;Citations: 2
-
+<div style="display: flex; justify-content: space-between;">
+  <p >[Microbiology Spectrum](http://dx.doi.org/10.1128/spectrum.03604-22)</p>
+  <p >Google Scholar Citations: 2</p>
+  <p >2022-10-26</p>
+  </div>***
