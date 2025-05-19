@@ -3,4 +3,4 @@ title: "Papers"
 bibliography: references.yaml
 ---
 
-[@donegan2022]
+[@hale2025] [@donegan2022]

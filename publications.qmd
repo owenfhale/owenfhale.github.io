@@ -1,11 +1,19 @@
 ---
 title: ""
 ---
+### Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria
+**Owen F. Hale**, Michelle Yin, Megan G. Behringer
+
+<div style="display: flex; justify-content: space-between;">
+  <p >[bioRxiv](https://doi.org/10.1101/2025.02.28.639667)</p>
+  <p ></p>
+  <p >2025-02-28</p>
+  </div>***
 ### Exogenously Scavenged and Endogenously Synthesized Heme Are Differentially Utilized by Mycobacterium tuberculosis
 Rebecca K. Donegan, Yibo Fu, Jacqueline Copeland, Stanzin Idga, Gabriel Brown, **Owen F. Hale**, Avishek Mitra, Hui Yang, Harry A. Dailey, Michael Niederweis, Paras Jain, Amit R. Reddi
 
 <div style="display: flex; justify-content: space-between;">
   <p >[Microbiology Spectrum](http://dx.doi.org/10.1128/spectrum.03604-22)</p>
-  <p >Google Scholar Citations: 4</p>
+  <p >Google Scholar Citations: 10</p>
   <p >2022-10-26</p>
   </div>***

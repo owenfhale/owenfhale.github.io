@@ -52,4 +52,18 @@ references:
   update-policy: "http://dx.doi.org/10.1128/asmj-crossmark-policy-page"
   URL: "http://dx.doi.org/10.1128/spectrum.03604-22"
   volume: 10
+- id: hale2025
+  author:
+  - family: Hale
+    given: Owen F.
+  - family: Yin
+    given: Michelle
+  - family: Behringer
+    given: Megan G.
+  container-title: bioRxiv
+  DOI: 10.1101/2025.02.28.639667
+  issued: 2025-02-28
+  title: Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria
+  type: article-journal
+  URL: "https://doi.org/10.1101/2025.02.28.639667"
 ...

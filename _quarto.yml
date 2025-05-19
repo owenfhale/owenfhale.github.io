@@ -7,10 +7,10 @@ website:
   title: "Owen Hale"
   description: "This site is about the scientist Owen Hale. It includes information about his ongoing research and scientific publications."
   navbar:
+    background: "#B3A369"
+    foreground: "#003057"
     left:
       - href: index.qmd
-        text: Home
-      - href: about_me.qmd
         text: About
       - href: research.qmd
         text: Research
@@ -19,20 +19,27 @@ website:
       - href: contact.qmd
         text: Contact
     right: 
-      - icon: google
+      - text: "<img src='academicons--google-scholar-square.svg' alt='Google Scholar' style='height: 22px; vertical-align: middle;'>"
         href: https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao
+      - text: "<img src='simple-icons--orcid.svg' alt='ORCiD' style='height: 22px; vertical-align: middle;'>"
+        href: https://orcid.org/0000-0003-3895-1357
       - icon: github
         href: https://github.com/owenfhale
       - icon: twitter
         href: https://twitter.com/owenmicro
       - icon: linkedin
         href: https://www.linkedin.com/in/owenhale/
+      - href: cv.pdf
+        text: CV
 
 format:
   html:
     theme: litera
     css: styles.css
     toc: true
+    mainfont: tahoma
+    fontcolor: "#003057"
+    linkcolor: "#B3A369"
 
 editor: visual
 

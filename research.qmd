@@ -2,26 +2,47 @@
 title: ""
 ---
 
-# Current Projects
+## Current Projects
 
-#### Microbiome targeted therapy for recurrent urinary tract infections
+### Ecology and evolution of urogenital bacteria
 
-In collaboration with clinicians at the Mayo Clinic I am evaluating the efficacy of a microablative vaginal laser treatment for preventing recurrent urinary tract infections in postmenopausal women. I will be using metagenomic sequencing to determine if the treatment causes changes in the urogenital microbiome that are associated with decreased UTI incidence such as increasing *Lactobacillus* abundance. View details at [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/show/NCT04301934).
+<div style="float: right; margin-left: 15px;">
+<img src="Lc_Ec_plate.png" alt="Agar plate with L. crispatus inhibiting E. coli growth" style="width: 300px;">
+</div>
 
-#### Ecology and evolution of bladder bacteria
+Most of the millions of urinary tract infections (UTIs) that occur every year are caused by *Escherichia coli*. To establish an infection, this bacterium must migrate to and survive within the bladder. This means that *E. coli* must contend with competition and antagonism from the commensal microbes inhabiting the bladder and any niche (gut, vagina, etc.) it passes through. A limited but growing body of evidence suggests that *Lactobacilli*, prevalent commensals of the female urogenital tract, may protect women from UTIs through direct antagonism against *E. coli* and/or improving the host immune response. However, some women with active UTIs are colonized with *Lactobacilli*, indicating that *E. coli* might be able to evolve resistance.
 
-Lactic acid bacteria are fastidious anaerobes and are understudied despite their industrial applications and associations with human health benefits. These bugs are known to inhibit the growth of pathogens like *E. coli* and may be critical for preventing UTIs. My goal is to understand the mechanisms driving the evolution of these microbes *in vitro* and in the human microbiome using a variety of experimental evolution and computational methods.
+Through *in vitro* experiments, I have demonstrated that *E. coli* can evolve increased resistance to urinary *Lactobacilli*. Currently, I am working to identify the genetic loci that underlie this adaptation and to characterize clinically relevant trade-offs that might come with increased resistance to *Lactobacilli*. I am also leveraging VUMC's [pathogen biorepository](https://www.vumc.org/microvu/welcome) with the help of [Dr. Maria Hadjifrangiskou](https://my.vanderbilt.edu/hadjifrangiskoulab/) to expand the clinical applicability of my findings.
 
-# Past Projects
 
-#### Mycobacterial heme homeostasis
+### Mutation rates and spectra of anaerobic bacteria
+Mutation is the ultimate source of all genetic variation. Mutagenesis is commonly associated with oxygen, the source of DNA damaging reactive oxygen species. However, life on Earth emerged in an anaerobic environment and evolved in one for over 1 billion years, and many important organisms today remain strict or facultative anaerobes. Understanding mutation in anaerobic environments is essential for understanding our history on this planet and managing the evolution of the microbes that cause infections, ferment our food, and carry out essential geochemical processes.
 
-*Mycobacterium tuberculosis* is the second deadliest pathogen and the deadliest bacterium. While progress has been made in fighting tuberculosis, antimicrobial resistance in this pathogen is growing rapidly. The need for new therapies requires us to understand new potential targets. Heme is an essential cofactor required by *M. tuberculosis* for respiration, gas sensing, neutralizing reactive oxygen species, and other processes necessary for pathogenesis. However, the reactivity that makes it so useful as a cofactor also makes it toxic. Free heme can dangerously alter proteins, lipids, and nucleic acids resulting in cell death. Using the model mycobacterium, *Mycobacterium smegmatis*, I identified physiologically relevant contitions that altered heme synthesis and bioavailability. My work on this project contributed to a [paper](publications.html#exogenously-scavenged-and-endogenously-synthesized-heme-are-differentially-utilized-by-mycobacterium-tuberculosis) driven by lead author Dr. Rebecca Donegan that described idiosyncratic patterns in mycobacterial heme homeostasis and showed that heme synthesis may be a promising drug target.
+<div style="float: left; margin-right: 15px;">
+  <img src="3A_acidophilus_circos_yl.png" alt="Figure from my MA paper" style="width: 300px;">
+</div>
 
-#### Agricultural microbiomes
+I performed mutation accumulation experiments with anaerobically cultured *Lactobacillus acidophilus*, *Lactobacillus crispatus*, and *Lactococcus lactis* subsp. *lactis*, three anaerobic bacteria used in food fermentation and found in the human microbiome. I found that these organisms have extremely high mutation rates that are consistent with their domesticated and host-associated lifestyles. In *L. acidophilus*, I identified intrachromosomal variation in the rate G:C \> A:T transitions, which occur \~3 times as frequently in the \~100 kb around the origin of replication as they do in the rest of the chromosome.
+
+[Read the paper](https://doi.org/10.1101/2025.02.28.639667)
+
+
+### Clinical collaborations
+
+I work with the [Hadjifrangiskou](https://my.vanderbilt.edu/hadjifrangiskoulab/) and [Schmitz](https://www.vumc.org/schmitzlab/welcome) labs, as well as Dr. Douglass Clayton's urology team at the Vanderbilt Children's Hospital, to understand the evolution of urinary pathogens, especially in patients with spina bifida.
+
+## Past Projects
+
+### Mycobacterial heme homeostasis
+
+*Mycobacterium tuberculosis* is the second deadliest pathogen and the deadliest bacterium. While progress has been made in fighting tuberculosis, antimicrobial resistance in this pathogen is growing rapidly. The need for new therapies requires us to understand new potential targets. Heme is an essential cofactor required by *M. tuberculosis* for respiration, gas sensing, neutralizing reactive oxygen species, and other processes necessary for pathogenesis. However, the reactivity that makes it so useful as a cofactor also makes it toxic. Free heme can dangerously alter proteins, lipids, and nucleic acids resulting in cell death. Using the model mycobacterium, *Mycobacterium smegmatis*, I identified physiologically relevant contitions that altered heme synthesis and bioavailability. My work on this project contributed to a larger project driven by Dr. Rebecca Donegan that described idiosyncratic patterns in mycobacterial heme homeostasis and showed that heme synthesis may be a promising drug target.
+
+[Read the paper](https://doi.org/10.1128/spectrum.03604-22)
+
+### Agricultural microbiomes
 
 Indigo Agriculture produces staple crop seeds treated with microbes which increase yield and can protect plants from stresses like drought or fungal infection. I screened pairs of microbes for antagonism using *in vitro* and *in planta* assays to determine if they were compatible for coinnoculation. I also contributed to a metabolite function knowledge base to enhance genome motivated microbe nominations.
 
-#### Electrophysiology of alcohol addiction
+### Electrophysiology of alcohol addiction
 
 Alcohol addiction is a leading cause of morbidity and mortality and it is believed that binge drinking may play a causal role in its pathogenesis. Working in Dr. Gilles Martin's lab at UMass Medical School, I performed mouse husbandry and set up whole-cell patch clamping experiments aimed at determining how binge drinking may lead to alcohol addiction. I also completed a small project aimed at addressing a major issue common in animal research: the exclusion of female research subjects. This causes two major problems. If there is no sex difference in the phenomenon being studied, the researchers cannot know if the results are generalizable to female animals. If there is a sex difference, it cannot be detected. This problem is being [prioritized](https://orwh.od.nih.gov/sex-gender/nih-policy-sex-biological-variable) by NIH. My goal was to understand if there is a difference in alcohol consumption between male and female mice so that the lab could confidently move forward with including female mice in future experiments. There was no difference.

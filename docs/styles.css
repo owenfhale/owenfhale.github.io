@@ -1,1 +1,4 @@
-/* css styles */
+/* filepath: styles.css */
+.navbar .nav-link.active {
+    color: #FFFFFF !important; /* Replace with your desired color */
+}

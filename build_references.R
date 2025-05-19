@@ -3,6 +3,11 @@ library(xml2)
 library(rvest)
 suppressPackageStartupMessages(library(tidyverse))
 
+# clear publications file
+if (file.exists("publications.qmd")){
+  file.remove("publications.qmd")
+}
+
 # import references from yaml
 references <- read_yaml('references.yaml')[[1]]
 
@@ -22,6 +27,7 @@ for (i in 1:length(references)){
   urls     <- c(urls, p$URL)
   dates    <- c(dates, p$issued)
   author_list <- c()
+  print(p$title)
   for (a in 1:length(p$author)){
     first <- p$author[a][[1]]$given
     last  <- p$author[a][[1]]$family
@@ -60,7 +66,11 @@ scholar_df <- cbind(title_pub, citations, year) |> as.data.frame() |> mutate(cit
 rownames(scholar_df) <- scholar_df$title_pub |> substring(1, 40)
 # add citation info to bib
 
-bib <- merge(bib, scholar_df, all.x = TRUE)
+#bib <- merge(bib, scholar_df, all.x = TRUE)
+bib <-
+  left_join(bib |> rownames_to_column('rn'),
+            scholar_df |> rownames_to_column('rn')) |>
+  dplyr::arrange(desc(dates))
 
 ########## convert data frame info into markdown text
 
@@ -70,7 +80,10 @@ write_file('---\ntitle: ""\n---\n', 'publications.qmd')
 
 for(i in 1:nrow(bib)){
   info <- bib[i,]
-  citations <- paste("Google Scholar Citations: ", info$citations[[1]], sep = '')
+  print(info$citations[[1]])
+  if (info$citations[[1]] == ''){
+    citations <- ''
+    }else {citations <- paste("Google Scholar Citations: ", info$citations[[1]], sep = '')}
   title <- paste('###', info$titles)
   url <- info$urls[[1]]
   journal <- paste('[', info$journals[[1]], '](', url, ')',sep = '', collapse = '')
