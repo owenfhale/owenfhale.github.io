@@ -66,4 +66,77 @@ references:
   title: Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria
   type: article-journal
   URL: "https://doi.org/10.1101/2025.02.28.639667"
+- id: spiga2025
+  author:
+  - family: Spiga
+    given: Luisella
+  - family: Fansler
+    given: Ryan T.
+  - family: Grote
+    given: Alexandra
+  - family: Langford-Butler
+    given: Madison
+  - family: Miller
+    given: Asia K.
+  - family: Neal
+    given: Maxwell
+  - family: Hale
+    given: Owen F.
+  - family: Wu
+    given: Yifan
+  - family: Singla
+    given: Deepanshu
+  - family: Calcutt
+    given: M. Wade
+  - family: Rose
+    given: Abigail E.
+  - family: Bresson
+    given: Madeline M.
+  - family: Schrimpe-Rutledge
+    given: Alexandra C.
+  - family: Berdy
+    given: Brittany
+  - family: Codreanu
+    given: Simona G.
+  - family: Washington
+    given: Mary Kay
+  - family: Bratton
+    given: Benjamin P.
+  - family: Sherrod
+    given: Stacy D.
+  - family: McLean
+    given: John A.
+  - family: Zengler
+    given: Karsten
+  - family: Sears
+    given: Cynthia L.
+  - family: Behringer
+    given: Megan G.
+  - family: Gnirke
+    given: Andreas
+  - family: Livny
+    given: Jonathan
+  - family: Olivares-Villagómez
+    given: Danyvid
+  - family: Earl
+    given: Ashlee M.
+  - family: Zhu
+    given: Wenhan
+  DOI: 10.1101/2025.05.31.657111
+  group-title: Microbiology
+  is-referenced-by-count: 0
+  issued: 2025-05-31
+  member: 246
+  prefix: 10.1101
+  providerKey: doi
+  publisher: Cold Spring Harbor Laboratory
+  reference-count: 172
+  references-count: 172
+  score: 1
+  source: Crossref
+  subtype: preprint
+  title: An Anaerobic Pathogen Rewires Host Metabolism to Fuel Oxidative
+    Growth in the Inflamed Gut
+  type: webpage
+  URL: "http://dx.doi.org/10.1101/2025.05.31.657111"
 ...

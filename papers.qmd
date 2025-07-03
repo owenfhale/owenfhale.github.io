@@ -3,4 +3,8 @@ title: "Papers"
 bibliography: references.yaml
 ---
 
-[@hale2025] [@donegan2022]
+[@hale2025]
+
+[@donegan2022]
+
+[@spiga2025]

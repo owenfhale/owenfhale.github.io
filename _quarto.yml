@@ -37,7 +37,7 @@ format:
     theme: litera
     css: styles.css
     toc: true
-    mainfont: tahoma
+    mainfont: arial
     fontcolor: "#003057"
     linkcolor: "#B3A369"
 

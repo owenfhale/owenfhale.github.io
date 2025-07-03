@@ -1,6 +1,14 @@
 ---
 title: ""
 ---
+### An Anaerobic Pathogen Rewires Host Metabolism to Fuel Oxidative Growth in the Inflamed Gut
+Luisella Spiga, Ryan T. Fansler, Alexandra Grote, Madison Langford-Butler, Asia K. Miller, Maxwell Neal, **Owen F. Hale**, Yifan Wu, Deepanshu Singla, M. Wade Calcutt, Abigail E. Rose, Madeline M. Bresson, Alexandra C. Schrimpe-Rutledge, Brittany Berdy, Simona G. Codreanu, Mary Kay Washington, Benjamin P. Bratton, Stacy D. Sherrod, John A. McLean, Karsten Zengler, Cynthia L. Sears, Megan G. Behringer, Andreas Gnirke, Jonathan Livny, Danyvid Olivares-Villagómez, Ashlee M. Earl, Wenhan Zhu
+
+<div style="display: flex; justify-content: space-between;">
+  <p >[Microbiology Spectrum](http://dx.doi.org/10.1101/2025.05.31.657111)</p>
+  <p ></p>
+  <p >2025-05-31</p>
+  </div>***
 ### Elevated rates and biased spectra of mutations in anaerobically cultured lactic acid bacteria
 **Owen F. Hale**, Michelle Yin, Megan G. Behringer
 
@@ -14,6 +22,6 @@ Rebecca K. Donegan, Yibo Fu, Jacqueline Copeland, Stanzin Idga, Gabriel Brown, *
 
 <div style="display: flex; justify-content: space-between;">
   <p >[Microbiology Spectrum](http://dx.doi.org/10.1128/spectrum.03604-22)</p>
-  <p >Google Scholar Citations: 10</p>
+  <p >Google Scholar Citations: 11</p>
   <p >2022-10-26</p>
   </div>***
