@@ -22,7 +22,10 @@ dates    <- c()
 for (i in 1:length(references)){
   p <- references[i][[1]]
   titles   <- c(titles, p$title)
-  journals <- c(journals, p$`container-title`)
+  
+  if (p$id == "spiga2025"){
+    journals <- c(journals, 'bioRxiv')
+  }else{journals <- c(journals, p$`container-title`)}
   dois     <- c(dois, p$DOI)
   urls     <- c(urls, p$URL)
   dates    <- c(dates, p$issued)

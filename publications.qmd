@@ -5,7 +5,7 @@ title: ""
 Luisella Spiga, Ryan T. Fansler, Alexandra Grote, Madison Langford-Butler, Asia K. Miller, Maxwell Neal, **Owen F. Hale**, Yifan Wu, Deepanshu Singla, M. Wade Calcutt, Abigail E. Rose, Madeline M. Bresson, Alexandra C. Schrimpe-Rutledge, Brittany Berdy, Simona G. Codreanu, Mary Kay Washington, Benjamin P. Bratton, Stacy D. Sherrod, John A. McLean, Karsten Zengler, Cynthia L. Sears, Megan G. Behringer, Andreas Gnirke, Jonathan Livny, Danyvid Olivares-Villagómez, Ashlee M. Earl, Wenhan Zhu
 
 <div style="display: flex; justify-content: space-between;">
-  <p >[Microbiology Spectrum](http://dx.doi.org/10.1101/2025.05.31.657111)</p>
+  <p >[bioRxiv](http://dx.doi.org/10.1101/2025.05.31.657111)</p>
   <p ></p>
   <p >2025-05-31</p>
   </div>***
