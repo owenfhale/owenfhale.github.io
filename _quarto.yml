@@ -1,23 +1,20 @@
 project:
   type: website
   output-dir: docs
-  pre-render: build_references.R
 
 website:
-  title: "Owen Hale"
+  title: "**Owen Hale**"
   description: "This site is about the scientist Owen Hale. It includes information about his ongoing research and scientific publications."
   navbar:
     background: "#B3A369"
     foreground: "#003057"
     left:
       - href: index.qmd
-        text: About
+        text: "**About**"
       - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: contact.qmd
-        text: Contact
+        text: "**Research**"
+      - href: cv.pdf
+        text: "**CV**"
     right: 
       - text: "<img src='academicons--google-scholar-square.svg' alt='Google Scholar' style='height: 22px; vertical-align: middle;'>"
         href: https://scholar.google.com/citations?user=gDywkyIAAAAJ&hl=en&oi=ao
@@ -29,15 +26,13 @@ website:
         href: https://twitter.com/owenmicro
       - icon: linkedin
         href: https://www.linkedin.com/in/owenhale/
-      - href: cv.pdf
-        text: CV
+
 
 format:
   html:
     theme: litera
     css: styles.css
     toc: true
-    mainfont: arial
     fontcolor: "#003057"
     linkcolor: "#B3A369"
 

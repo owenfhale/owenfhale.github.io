@@ -1,4 +1,20 @@
 /* filepath: styles.css */
+:root {
+  --bs-body-font-family: "Roboto Serif", serif;
+}
+
+body, .navbar, .nav-link, .navbar-brand {
+  font-family: "Roboto Serif", serif !important;
+}
+
+/* Override theme defaults for body text */
+.page-content, 
+main, 
+.content,
+p {
+  font-family: "Roboto Serif", serif !important;
+}
+
 .navbar .nav-link.active {
-    color: #FFFFFF !important; /* Replace with your desired color */
+    color: #FFFFFF !important;
 }

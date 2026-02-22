@@ -8,8 +8,10 @@ title: ""
 
 I'm Owen Hale, a biological sciences Ph.D. candidate in [Dr. Megan Behringer's lab](https://behringerlab.wixsite.com/index) at Vanderbilt University.
 
-My main scientific interest is the within-host ecology and evolution of bacterial pathogenesis. This means I think about how ecological interactions between pathogens and members of the microbiome mediate infection outcomes and how evolution affects these interactions. I also collaborate with physicians to improve patient care with evolutionary insights.
+My main scientific interest is the population biology of bacteria that live in and on the human body. I study how fundamental evolutionary forces — drift, mutation, recombination, and selection — shape these populations and how these forces are determined, such as how demography influences drift, how ecological interactions impose selective pressures, and how mutation rates evolve.
 
-Before starting my doctoral training in 2021, I graduated from Georgia Tech where I earned a B.S. in biology. There, I worked with Dr. Amit Reddi and Dr. Rebecca Donegan to study heme homeostasis in mycobacteria, which cause tuberculosis, leprosy, and other infections. I also did an industry co-op developing microbial treatments to increase crop yield and carbon sequestration at Indigo Agriculture, Inc. and studied the neurobiology of alcohol addiction in Dr. Gilles Martin's lab at UMass Medical School.
+A central goal of my research is to understand how evolutionary processes determine clinically relevant traits, including virulence, antibiotic resistance, and probiotic effects. By combining experimental evolution, population genetic approaches, and collaborations with clinicians and microbiologists, I aim to use evolutionary insights to understand, predict, and manage the bacterial populations that are central to our health.
+
+Before starting my doctoral training in 2021, I graduated from Georgia Tech where I earned a B.S. in biology. There, I worked with Dr. Amit Reddi and Dr. Rebecca Donegan to study heme homeostasis in mycobacteria, which cause tuberculosis, leprosy, and other infections. I also completed an industry co-op developing microbial treatments to increase crop yield and carbon sequestration at Indigo Agriculture, Inc., and studied the neurobiology of alcohol addiction in Dr. Gilles Martin's lab at UMass Medical School.
 
 Outside the lab, I'm an avid New England and Georgia Tech sports fan and cook.
