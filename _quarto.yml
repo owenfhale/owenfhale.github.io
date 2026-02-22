@@ -4,7 +4,7 @@ project:
 
 website:
   title: "**Owen Hale**"
-  description: "This site is about the scientist Owen Hale. It includes information about his ongoing research and scientific publications."
+  description: "This site is about the scientist Owen Hale. It includes information about his ongoing research."
   navbar:
     background: "#B3A369"
     foreground: "#003057"
